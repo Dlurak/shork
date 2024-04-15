@@ -79,7 +79,8 @@ type SpecialKeys =
 	| "}"
 	| "Delete"
 	| "PageDown"
-	| "PageUp";
+	| "PageUp"
+	| "Enter";
 
 type Modifier = "Control" | "Meta" | "CapsLock" | "Escape";
 
