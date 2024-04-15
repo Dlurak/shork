@@ -1,7 +1,7 @@
 {
-  "name": "library",
-  "description": "",
-  "version": "1.0.0",
+  "name": "shork",
+  "description": "Easily create keyboard shortcuts",
+  "version": "0.1.0",
   "license": "MIT",
   "keywords": [],
   "main": "dist/index.js",

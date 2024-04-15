@@ -1,25 +1,40 @@
-# TypeScript Library Template
+# Shork
 
-A template repository to bootstrap your own typescript library blazingly fast.
+A library to easily create shortcuts in your JavaScript web apps.
 
-## Features
+## Example
 
-This template brings many features:
+```typescript
+registerShortcuts([
+	{
+		keys: ["Control", "k"],
+		action: () => {
+            // Open a search or something
+		}
+	}
+]);
+```
 
-- **Bundling** with TypeScript declerations, ES modules and common js using [tsup](https://github.com/egoist/tsup)
-- **Tests** using [vitest](https://github.com/vitest-dev/vitest)
-- **Documentation** from JS-Doc comments using [typedoc](https://typedoc.org/)
+## Installation
 
-### CI/CD
+```bash
+npm install shork
+```
 
-These are still work in progress
+```bash
+yarn add shork
+```
 
-- [x] Building and deploying the docs to GitHub Pages
-- [ ] Uploading the library to npm
-- [ ] Lint/Formatting checks
+```bash
+pnpm add shork
+```
 
-## Getting started
+```bash
+bun add shork
+```
 
-1. Use this template
-2. Update the `package.json`
-3. Start writing code 🚀
+```bash
+pmr add shork
+```
+
+[Pmr](https://github.com/Dlurak/pmr) is a command line utility to control all package managers with one interface.
